@@ -2,7 +2,7 @@
     <taskdef resource="com/puppycrawl/tools/checkstyle/ant/checkstyle-ant-task.properties"
          classpath="WebContent/WEB-INF/lib/checkstyle-7.8.2-all.jar"/>
 	<path id="compile.classpath">
-        <fileset dir="WebContent/WEB-INF/lib">
+        <fileset dir="WebContent/WEB-INF/lib">1
             <include name="*.jar"/>
         </fileset>
     </path>
